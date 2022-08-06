@@ -16,6 +16,7 @@ public class qus_11 {
     public static void main(String[] args) {
         even_total_number(89);
         even_total_number(10);
+        even_total_number(67);
         
     }
     
