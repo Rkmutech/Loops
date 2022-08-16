@@ -9,24 +9,24 @@ public class qus_14 {
         {
             if(i%3==0)
             {
-                System.out.println("Fizz");
+                System.out.println(i+":Fizz");
             }
              if(i%5==0)
             {
-                System.out.println("Buzz");
+                System.out.println(i+":Buzz");
             }
              if(i%3==0 && i%5==0)
             {
-                System.out.println("FizzBuzz");
+                System.out.println(i+":FizzBuzz");
             }
         }
     }
 
     public static void main(String[] args) {
-        Scanner obj=new Scanner(System.in);
-        System.out.println("Enter the your number: ");
-        int n=obj.nextInt();
-        division( n);
+        //Scanner obj=new Scanner(System.in);
+        //System.out.println("Enter the your number: ");
+       // int n=obj.nextInt();
+        //division( n);
         division(10);
         division(100);
         division(2);
